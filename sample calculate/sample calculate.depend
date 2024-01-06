@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681758477 source:d:\project c++\sample calculate\main.cpp
+	<iostream>
+	<cmath>
+
