@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript" type="text/javascript">
+        
+        
+            
+        
+        
+        function changeBGColor(selected){
+            selected=prompt("What color do you want\t1blue\t2 teal\t3Yellow")
+            switch(selected){
+                case("1"):document.body.style.backgroundColor="blue";
+                break;
+                case("2"):document.body.style.backgroundColor="teal";
+                break;
+                case("3"):document.body.style.backgroundColor="yellow";
+                break;
+                default:
+                    document.body.style.backgroungColor="white";
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="userinput" id="uuserinput">
+        <input type="button" onclick="changeBGColor()" value="click here"/>
+    </form>
+</body>
+</html>
